@@ -22,12 +22,10 @@
 
 ## **Порождающие паттерны**
 
-***
-
 ### Абстрактная фабрика _(Abstract Factory)_
 
 Позволяет создавать семейства связанных объектов, не привязываясь к конкретным классам создаваемых объектов.
 
 **Пример кода**
 
-- `Python <Generating/Python/abstract_factory.py>`\_
+- Python (Generating/Python/abstract_factory.py)
