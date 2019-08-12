@@ -1,3 +1,12 @@
+# coding: utf-8
+
+"""
+Прототип - паттерн, порождающий объекты.
+
+Задает виды создаваемых объектов с помощью экземпляра-прототипа
+и создает новые объекты путем копирования этого прототипа.
+"""
+
 from __future__ import annotations
 from datetime import datetime
 from copy import deepcopy

@@ -1,3 +1,15 @@
+# coding: utf-8
+
+"""
+Фабричный метод (Factory Method) - паттерн, порождающий классы.
+
+Определяет интерфейс для создания объекта, но оставляет подклассам решение о том, какой класс инстанцировать.
+Позволяет делегировать инстанцирование подклассам.
+
+Абстрактная фабрика часто реализуется с помощью фабричных методов.
+Фабричные методы часто вызываются внутри шаблонных методов.
+"""
+
 from __future__ import annotations
 from abc import ABC, abstractmethod
 
@@ -92,8 +104,11 @@ def client_code(creator: Creator) -> None:
     базовый интерфейс, вы можете передать ему любой подкласс создателя.
     """
 
-    print(f"Client: I'm not aware of the creator's class, but it still works.\n"
-          f"{creator.some_operation()}", end="")
+    print(
+        f"Client: I'm not aware of the creator's class, but it still works.\n"
+        f"{creator.some_operation()}",
+        end="",
+    )
 
 
 if __name__ == "__main__":
