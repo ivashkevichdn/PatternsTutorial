@@ -90,3 +90,16 @@ if __name__ == "__main__":
     print("Client: Executing the same client code with a proxy:")
     proxy = Proxy(real_subject)
     client_code(proxy)
+
+    # -------------------------------------------------------------------------------
+    # Результат выполнения
+    # -------------------------------------------------------------------------------
+    """
+    Client: Executing the client code with a real subject:
+    RealSubject: Handling request.
+
+    Client: Executing the same client code with a proxy:
+    Proxy: Checking access prior to firing a real request.
+    RealSubject: Handling request.
+    Proxy: Logging the time of request.
+    """

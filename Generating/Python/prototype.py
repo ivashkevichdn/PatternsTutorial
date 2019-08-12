@@ -98,6 +98,18 @@ if __name__ == "__main__":
         print("Component with back reference has been cloned. Yay!")
 
     if p1.circular_reference.prototype is p2.circular_reference.prototype:
-        print("Component with back reference is linked to original object. Booo!", end="")
+        print(
+            "Component with back reference is linked to original object. Booo!", end=""
+        )
     else:
         print("Component with back reference is linked to the clone. Yay!", end="")
+
+    # -------------------------------------------------------------------------------
+    # Результат выполнения
+    # -------------------------------------------------------------------------------
+    """
+    Primitive field values have been carried over to a clone. Yay!
+    Simple component has been cloned. Yay!
+    Component with back reference has been cloned. Yay!
+    Component with back reference is linked to the clone. Yay!
+    """

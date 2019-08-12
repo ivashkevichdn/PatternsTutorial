@@ -108,3 +108,14 @@ if __name__ == "__main__":
     decorator2 = ConcreteDecoratorB(decorator1)
     print("Client: Now I've got a decorated component:")
     client_code(decorator2)
+
+    # -------------------------------------------------------------------------------
+    # Результат выполнения
+    # -------------------------------------------------------------------------------
+    """
+    Client: I've got a simple component:
+    RESULT: ConcreteComponent
+
+    Client: Now I've got a decorated component:
+    RESULT: ConcreteDecoratorB(ConcreteDecoratorA(ConcreteComponent))
+    """

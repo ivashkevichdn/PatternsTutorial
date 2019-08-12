@@ -93,3 +93,15 @@ if __name__ == "__main__":
     subsystem2 = Subsystem2()
     facade = Facade(subsystem1, subsystem2)
     client_code(facade)
+
+    # -------------------------------------------------------------------------------
+    # Результат выполнения
+    # -------------------------------------------------------------------------------
+    """
+    Facade initializes subsystems:
+    Subsystem1: Ready!
+    Subsystem2: Get ready!
+    Facade orders subsystems to perform the action:
+    Subsystem1: Go!
+    Subsystem2: Fire!
+    """

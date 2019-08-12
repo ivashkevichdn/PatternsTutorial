@@ -174,3 +174,18 @@ if __name__ == "__main__":
     builder.produce_part_a()
     builder.produce_part_b()
     builder.product.list_parts()
+
+    #-------------------------------------------------------------------------------
+    # Результат выполнения
+    #-------------------------------------------------------------------------------
+    """
+    Standard basic product: 
+    Product parts: PartA1
+    
+    Standard full featured product: 
+    Product parts: PartA1, PartB1, PartC1
+    
+    Custom product: 
+    Product parts: PartA1, PartB1
+    """
+    
