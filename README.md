@@ -45,7 +45,7 @@
 
 ## **Источники**
 
-Данный конспект был основан на данных из следующих источников:
+Конспект был основан на данных из следующих источников:
 
 - [Рефакторинг.Гуру](https://refactoring.guru/ru/design-patterns)
 - [design_patterns (github)](https://github.com/pkolt/design_patterns)
