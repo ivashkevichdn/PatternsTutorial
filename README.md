@@ -28,4 +28,4 @@
 
 **Пример кода**
 
-- Python (Generating/Python/abstract_factory.py)
+- [Python](Generating/Python/abstract_factory.py)
